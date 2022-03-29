@@ -1,0 +1,10 @@
+GET http://localhost:8000/api
+
+###
+
+POST http://localhost:8000/api/sign
+
+###
+
+POST http://localhost:8000/api/verify
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyOCwidXNlcm5hbWUiOiJIYXJzaGl0IiwiZW1haWwiOiJoYXJzaGl0QHNqLmNvbSJ9LCJpYXQiOjE2NDg1MjY0MTB9.pFkjpJ-vqLkgBPJ0P6r3DadWE799GZAxBFDDhewyvww
