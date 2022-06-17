@@ -1,10 +1,26 @@
-GET http://localhost:8000/api
+GET http://localhost:8000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSGFyc2hpdCIsImlhdCI6MTY1MzgxODM5Mn0.sHqwB3-pb1I_hUydbmZvUvFn6c1CN_P-FUVz4C1o2uE
 
 ###
 
-POST http://localhost:8000/api/sign
+POST http://localhost:8000/login 
+Content-Type: application/json
+
+{
+    "username": "Harshit"
+}
+
 
 ###
 
-POST http://localhost:8000/api/verify
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoyOCwidXNlcm5hbWUiOiJIYXJzaGl0IiwiZW1haWwiOiJoYXJzaGl0QHNqLmNvbSJ9LCJpYXQiOjE2NDg1MjY0MTB9.pFkjpJ-vqLkgBPJ0P6r3DadWE799GZAxBFDDhewyvww
+GET http://localhost:3000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSGFyc2hpdCIsImlhdCI6MTY1MzgxNzAyM30.t1HoGIV6YjrPtDrUKrWXqJGOZp3azaPxa1UGEhmNc9o
+
+###
+
+POST http://localhost:4000/login 
+Content-Type: application/json
+
+{
+    "username": "Harshit"
+}
